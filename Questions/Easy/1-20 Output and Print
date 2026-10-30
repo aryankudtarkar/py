@@ -1,0 +1,20 @@
+1. Write a program that prints 'Hello, World!'.
+2. Print your name on the screen.
+3. Print the numbers 1 to 5, each on its own line, using five print() calls.
+4. Print 'Python is fun' three times using three print() statements.
+5. Print two words on one line using print() with the sep argument.
+6. Print two separate print() calls on the same line using end=''.
+7. Print a three-line poem using a single triple-quoted string.
+8. Print a tab-separated row: Name, Age, City.
+9. Print a sentence that contains double quotes inside it.
+10. Print a single backslash character (escape it correctly).
+11. Print the result of 5 + 3.
+12. Print the result of 10 - 4.
+13. Print the result of 6 * 7.
+14. Print the result of 15 / 4.
+15. Print the result of 15 // 4.
+16. Print the result of 15 % 4.
+17. Print the result of 2 ** 10.
+18. Write a program that prints your age and add a comment explaining what it does.
+19. Print a rectangle of asterisks, 3 rows by 5 columns, using only print statements.
+20. Print Hello and World joined by a comma and a space using sep.

@@ -1,0 +1,30 @@
+21. Create a variable x = 10 and print it.
+22. Store your name in a variable and print it.
+23. Swap two variables using a temporary variable.
+24. Swap two variables using tuple assignment.
+25. Assign the same value to three variables in one line.
+26. Print the type of 42.
+27. Print the type of 3.14.
+28. Print the type of 'hello'.
+29. Print the type of True.
+30. Print the type of None.
+31. Convert the string '25' to an integer and add 5 to it.
+32. Convert the integer 7 to a string and join it with ' days'.
+33. Convert the float 9.99 to an integer and print it. What happens to the decimal part?
+34. Convert the integer 5 to a float.
+35. Convert 0, 1, and 'hello' to booleans and print them.
+36. Which of these are valid variable names: my_var, 2var, _var, my-var, class? Explain each.
+37. Store your age and print 'I am X years old' using string concatenation.
+38. Print your name and age using an f-string.
+39. Print your name and age using .format().
+40. Print your name and age using % formatting.
+41. Ask the user for their name and greet them.
+42. Ask the user for two numbers and print their sum.
+43. Ask the user for a decimal number and print it doubled.
+44. Define PI = 3.14159 and compute the area of a circle of radius 5.
+45. Read length and width from the user and print the area of the rectangle.
+46. Convert a Celsius temperature to Fahrenheit.
+47. Convert a Fahrenheit temperature to Celsius.
+48. Compute simple interest from principal, rate, and time.
+49. Compute the average of three numbers.
+50. Compute the perimeter of a square given its side.
