@@ -1,40 +1,37 @@
 # Python, One Step at a Time
 
-<div align="center">
+A beginner-friendly collection of short Python practice questions and example
+solutions. Work through the exercises in order, experiment with the code, and
+build confidence with the language one concept at a time.
 
-### A small, hands-on collection of beginner Python exercises
+## Exercise sets
 
-Practice the basics with short problems, then run the solutions and see what
-Python does.
+| Set | Exercises | Topics |
+| --- | ---: | --- |
+| [Output and Print](<Questions/Easy/1-20 Output and Print>) | 1–20 | `print()`, text, separators, escape characters, and arithmetic |
+| [Variables and Types](<Questions/Easy/21-50 Variables and Types>) | 21–50 | Variables, data types, conversions, formatting, input, and calculations |
 
-</div>
+The question sets introduce exercises 1–50. Example solutions are currently
+included for exercises 1–21; the remaining solutions can be added as you work
+through the questions.
 
----
+## Get started
 
-## What you'll practice
+You’ll need Python 3. The exercises use only the Python standard library, so no
+extra packages are needed.
 
-| Set | Topics | Exercises |
-| --- | --- | ---: |
-| [Output and Print](<Questions/Easy/1-20 Output and Print>) | `print()`, strings, separators, escape characters, and arithmetic | 1–20 |
-| [Variables and Types](<Questions/Easy/21-50 Variables and Types>) | Variables, data types, conversions, formatting, input, and simple calculations | 21–50 |
-
-## Getting started
-
-You need Python 3. No extra packages are required.
-
-1. Choose an exercise from the [question sets](#what-youll-practice).
-2. Open its matching solution, if one is available, or write your own in a
-   `.py` file.
-3. Run it from a terminal:
-
-   ```bash
-   python3 path/to/your_file.py
-   ```
-
-For example, to run the first solution:
+Run a solution from the repository root with `python3` and its path. For example:
 
 ```bash
 python3 "Solutions/Easy/1-20 Output and Print/1.py"
+python3 "Solutions/Easy/21-50 Variables and Types/21.py"
+```
+
+To practice, choose a question, write your own `.py` file, and run it the same
+way:
+
+```bash
+python3 path/to/your_file.py
 ```
 
 ## Repository layout
@@ -47,23 +44,14 @@ Questions/
 
 Solutions/
 └── Easy/
-    ├── 1-20 Output and Print/       # Exercises 1–20
-    └── " 21-50 Variables and Types"/ # Exercise 21 (directory name starts with a space)
+    ├── 1-20 Output and Print/       # Example solutions for exercises 1–20
+    └── 21-50 Variables and Types/   # Example solutions starting with exercise 21
 ```
 
-The question sets cover exercises 1–50. Solutions are being added as the
-collection grows; currently, solutions are available for exercises 1–21.
+## Suggested approach
 
-## A good way to use this collection
+- Try each question before opening its example solution.
+- Run your code often and change values to see how the result changes.
+- Write down what you learned, then revisit earlier exercises as you improve.
 
-- Try each problem before looking at a solution.
-- Change values and run the code again to see what happens.
-- Add comments in your own words when you learn something new.
-
----
-
-<div align="center">
-
-Made for curious beginners. Keep experimenting! 🐍
-
-</div>
+Happy coding! 🐍
