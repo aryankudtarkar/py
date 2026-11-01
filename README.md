@@ -1,57 +1,61 @@
-# Python, One Step at a Time
+# Python Practice Library
 
-A beginner-friendly collection of short Python practice questions and example
-solutions. Work through the exercises in order, experiment with the code, and
-build confidence with the language one concept at a time.
+A growing collection of beginner-friendly Python exercises, example solutions,
+and classwork notes. This repository serves two purposes: it is my record of
+what I am learning, and a library that other learners can use to practise
+fundamental Python concepts.
 
-## Exercise sets
+## What’s here
 
-| Set | Exercises | Topics |
-| --- | ---: | --- |
-| [Output and Print](<Questions/Easy/1-20 Output and Print>) | 1–20 | `print()`, text, separators, escape characters, and arithmetic |
-| [Variables and Types](<Questions/Easy/21-50 Variables and Types>) | 21–50 | Variables, data types, conversions, formatting, input, and calculations |
+| Section | Contents |
+| --- | --- |
+| [Questions](Questions/Easy) | 50 short exercises grouped by topic |
+| [Solutions](Solutions/Easy) | Example answers for exercises 1–50 |
+| [Classwork](Classwork) | Practice programs and notes from class |
 
-The question sets introduce exercises 1–50. Example solutions are currently
-included for exercises 1–21; the remaining solutions can be added as you work
-through the questions.
+The exercises cover printing, variables, data types, conversions, formatting,
+user input, arithmetic, and introductory problem solving. The solutions show
+one possible approach; try each question yourself before consulting its example.
 
-## Get started
+## Getting started
 
-You’ll need Python 3. The exercises use only the Python standard library, so no
-extra packages are needed.
+You need Python 3. The exercises and examples use the Python standard library,
+so no additional packages are required.
 
-Run a solution from the repository root with `python3` and its path. For example:
+Run a solution from the repository root with `python3` and its path:
 
 ```bash
 python3 "Solutions/Easy/1-20 Output and Print/1.py"
 python3 "Solutions/Easy/21-50 Variables and Types/21.py"
 ```
 
-To practice, choose a question, write your own `.py` file, and run it the same
-way:
+Exercises that use `input()` will prompt you to enter values in the terminal.
+You can also write your own answer in a separate file and run it the same way:
 
 ```bash
 python3 path/to/your_file.py
 ```
 
+## Learning notes
+
+I use this repository to keep track of practice, examples, and classwork as I
+learn Python. Solutions may evolve as I revisit a topic and find clearer ways to
+explain or implement it. If you spot an error or have a suggestion that could
+help other learners, feel free to open an issue or propose a change.
+
+## Contributing
+
+You’re welcome to use the exercises for your own practice. If you contribute,
+please keep examples beginner-friendly, use only the standard library unless a
+question calls for more, and include a clear explanation when a solution needs
+assumptions such as integer-only input.
+
 ## Repository layout
 
 ```text
-Questions/
-└── Easy/
-    ├── 1-20 Output and Print
-    └── 21-50 Variables and Types
-
-Solutions/
-└── Easy/
-    ├── 1-20 Output and Print/       # Example solutions for exercises 1–20
-    └── 21-50 Variables and Types/   # Example solutions starting with exercise 21
+Questions/Easy/   Exercise prompts, grouped by topic
+Solutions/Easy/   Example solutions, using matching exercise numbers
+Classwork/        Additional practice programs and learning notes
 ```
 
-## Suggested approach
-
-- Try each question before opening its example solution.
-- Run your code often and change values to see how the result changes.
-- Write down what you learned, then revisit earlier exercises as you improve.
-
-Happy coding! 🐍
+Happy learning! 🐍
